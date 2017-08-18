@@ -259,3 +259,6 @@
 
 # Subsystem Restart Ramdump
 /dev/ramdump*             0660   radio      radio
+
+/sys/devices/virtual/smdpkt/smdcntl*       open_timeout   0664 radio radio
+
